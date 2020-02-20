@@ -28,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="**\*.less;**\*.scss;" />
+    <EmbeddedResource Remove="Views\Layout.liquid" />
     <EmbeddedResource Remove="wwwroot\about.html" />
     <EmbeddedResource Remove="wwwroot\contact.html" />
     <EmbeddedResource Remove="wwwroot\gulpfile.js" />

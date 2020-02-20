@@ -1,14 +1,13 @@
-{% zone "Header" %}
+﻿{% zone "Header" %}
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="masthead" style="background-image: url('{{ "~/TheCleanBlogTheme/img/about-bg.jpg" | href }}')">
+    <header class="masthead" style="background-image: url('{{ "~/TheCleanBlogTheme/img/contact-bg.jpg" | href }}')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="page-heading">
+                    <div class="site-heading">
                         <h1>{{ Model.ContentItem.DisplayText }}</h1>
-                        <span class="subheading">{{ Model.ContentItem.Content.Article.Subtitle.Text }}</span>
                     </div>
                 </div>
             </div>
@@ -16,7 +15,4 @@
     </header>
 {% endzone %}
 
-{{ Model.Content.ContentsMetadata.Value }}
-{{ Model.Content.ContentsMetadata | shape_render }}
-
-{{ Model.Content.HtmlBodyPart | shape_render }}
+{{ Model.Content | shape_render }}

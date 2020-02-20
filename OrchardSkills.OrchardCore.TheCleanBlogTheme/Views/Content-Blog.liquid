@@ -1,6 +1,7 @@
 {% zone "Header" %}
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
+    {{ Model | console_log }}
     {% assign imagePath = Model.ContentItem.Content.Blog.Image.Paths.first %}
     {% if imagePath == nil %}
     <header class="masthead" style="background-image: url('{{ "~/TheCleanBlogTheme/img/home-bg.jpg" | href }}')">

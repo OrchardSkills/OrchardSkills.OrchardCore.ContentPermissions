@@ -36,6 +36,9 @@
         "OrchardCore.Settings",
         "OrchardCore.Themes",
         "OrchardCore.Users",
+        "OrchardCore.Users.ChangeEmail",
+        "OrchardCore.Users.Registration",
+        "OrchardCore.Users.ResetPassword",
         "OrchardSkills.OrchardCore.ContentPermissions",
 
         // Content Management
@@ -1088,9 +1091,9 @@
                       }
                     },
                     {
-                      "ContentItemId": "40tahbx1b3n5ar3tvwmnn5nw5s",
+                      "ContentItemId": "4kkzj3ts1zkmys2qasnb1def5s",
                       "ContentItemVersionId": null,
-                      "ContentType": "Input",
+                      "ContentType": "TextArea",
                       "DisplayText": "Message",
                       "Latest": false,
                       "Published": false,
@@ -1104,8 +1107,7 @@
                       "FormElementPart": {
                         "Id": null
                       },
-                      "InputPart": {
-                        "Type": "text",
+                      "TextAreaPart": {
                         "DefaultValue": null,
                         "Placeholder": "Enter Message Text"
                       },
