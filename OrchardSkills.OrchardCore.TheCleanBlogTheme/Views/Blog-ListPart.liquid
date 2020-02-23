@@ -1,5 +1,6 @@
 {% for item in Model.ContentItems %}
     {{ item | shape_build_display: "Summary" | shape_render }}
+    {{ item | console_log }}
 {% endfor %}
 
 {% assign previousText = "← Newer Posts" | t %}

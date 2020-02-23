@@ -120,3 +120,6 @@ App_Data/
 
 # Localization
 Localization/
+
+# Orchard Core
+is-cache/
