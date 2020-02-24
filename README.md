@@ -7,5 +7,5 @@ Enabled the "Content Permissions" feature, which will make a new "Content Permis
 # Article
 [Community Love: The Value of Open Source](https://www.etchuk.com/insights/community-love-the-value-of-open-source)
 
-# Repository
-[Origanal Content Permissions Repository](https://github.com/EtchUK/Etch.OrchardCore.ContentPermissions)
+# GitHub Origanal Repository
+[Content Permissions Repository](https://github.com/EtchUK/Etch.OrchardCore.ContentPermissions)
